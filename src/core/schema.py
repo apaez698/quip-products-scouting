@@ -1,0 +1,17 @@
+STANDARD_COLUMNS = [
+    "supplier",
+    "supplier_sku",
+    "title",
+    "brand",
+    "model",
+    "ean_upc",
+    "category",
+    "condition",
+    "cost_x1_usd",
+    "cost_x3_usd",
+    "cost_x6_usd",
+    "tax_included",
+    "stock",
+    "eta_text",
+    "source_file",
+]
