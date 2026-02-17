@@ -16,7 +16,6 @@ def register(name: str) -> Callable[[ProviderFunction], ProviderFunction]:
 def get_provider(name: str) -> ProviderFunction:
     if name not in REGISTRY:
         raise ValueError(
-            f"Proveedor no registrado: {name}. "
-            f"Disponibles: {list(REGISTRY.keys())}"
+            f"Proveedor no registrado: {name}. " f"Disponibles: {list(REGISTRY.keys())}"
         )
     return REGISTRY[name]
